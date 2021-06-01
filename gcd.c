@@ -1,4 +1,4 @@
-/* A program to compute the greatest common divisor of two given integers */
+/* A program to compute the greatest common divisor of two integers */
 
 #include <stdio.h>
 #include <math.h>
@@ -29,8 +29,8 @@ if (modValue1 == 0 && modValue2 == 0){
 	gcd = counter;
 	//printf("Counter in loop 1 is %d \n", counter);
 }
-}	
- 
+}
+
 }
 
 else {
@@ -46,8 +46,8 @@ if (modValue1 == 0 && modValue2 == 0){
 	gcd = counter;
 	//printf("Counter in loop 2 is %d \n", counter);
 }
-}	
- 
+}
+
 }
 printf("The greatest common divisor for the integers %d and %d is %d \n", number1, number2, gcd);
 

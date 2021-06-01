@@ -1,3 +1,5 @@
+/* A program that outputs the user name and a greeting */
+
 #include<stdio.h>
 
 int main(){
@@ -11,10 +13,3 @@ int main(){
 	printf("\n");
 	return 0;
 }
-
-
-
-
-
-
-

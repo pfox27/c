@@ -1,3 +1,5 @@
+/* A program that gets the user name and then outputs the reverse of the name */
+
 #include<stdio.h>
 #include<string.h>
 
@@ -22,7 +24,7 @@ int main(){
 
 		printf("%c", name[ReverseLength]);
 
-	}	
+	}
 
 
 
@@ -30,10 +32,3 @@ int main(){
 	printf("\n");
 	return 0;
 }
-
-
-
-
-
-
-
