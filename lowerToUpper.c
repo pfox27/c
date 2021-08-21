@@ -1,4 +1,4 @@
-/* A program to change a lower case letter to the upper case equivalent or vice-versa*/
+/* A program to change a lower case letter to the upper case equivalent or vice-versa.  Written by Pol Faux*/
 
 #include <stdio.h>
 #include <ctype.h>
@@ -12,12 +12,12 @@ char makeupper (char character){
 			printf("Character is upper case \n");
 			return tolower (character);
 		}
-		else{ 
+		else{
 		printf("Character can't be converted \n");
 		return character;
 		}
 	}
-		
+
 
 
 int main (void){
@@ -29,8 +29,6 @@ char c;
 	scanf("%c", &c);
 //	makeupper (c);
 	printf("The end result is %c", makeupper(c));
-		 
+
     return 0;
 }
-
-

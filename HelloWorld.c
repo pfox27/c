@@ -1,4 +1,4 @@
-/* A first program inb c */
+/* A first program in c */
 
 #include<stdio.h>
 
