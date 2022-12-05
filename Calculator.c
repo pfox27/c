@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main(){
+int main(){
 	double number01 = 0.0;  // first operand
         double number02 = 0.0;  // second operand
 	char operation = 0;    // operation indicator
@@ -47,7 +47,7 @@ void main(){
 	}
 
  
-//return (0);
+return 0;
 }
 
 
