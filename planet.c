@@ -1,4 +1,4 @@
-/* A program that calculates the circumference, the volume and the surface area of a planet of given radius. */
+/* A program that calculates the circumference, the volume and the surface area of a planet of given radius. This will work for any planet, even Planet 10. */
 
 #include <stdio.h>
 #include <string.h>
