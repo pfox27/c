@@ -25,11 +25,11 @@ int main(){
 			MolarMass = 1.01;
 		else if (strcmp(Symbol, "He") == 0)
 			MolarMass = 4.00;
-		else if (Symbol == "Li")
+		else if (strcmp(Symbol, "Li") == 0)
 			MolarMass = 6.94;
-		else if (Symbol == "Be")
+		else if (strcmp(Symbol, "Be") == 0)
 			MolarMass = 9.01;
-		else if (Symbol == "B")
+		else if (strcmp(Symbol, "B") == 0)
 			MolarMass = 10.81;
 		else if (strcmp(Symbol, "C") == 0)
 			MolarMass = 12.01;
