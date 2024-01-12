@@ -41,44 +41,136 @@ int main(){
 			MolarMass = 19.00;
 		else if Symbol == "Ne"
 			MolarMass = 20.18;
-		else if Symbol == 11
+		else if Symbol == "Na"
 			MolarMass = 22.99;
-		else if Symbol == 12
+		else if Symbol == "Mg"
 			MolarMass = 24.31;
-		else if Symbol == 13
+		else if Symbol == "Al"
 			MolarMass = 26.98;
-		else if Symbol == 14
+		else if Symbol == "Si"
 			MolarMass = 28.09;
-		else if Symbol == 15
+		else if Symbol == "P"
 			MolarMass = 30.97;
-		else if Symbol == 16
+		else if Symbol == "S"
 			MolarMass = 32.07;
-		else if Symbol == 17
+		else if Symbol == "Cl"
 			MolarMass = 35.45;
-		else if Symbol == 18
+		else if Symbol == "Ar"
 			MolarMass = 39.95;
-		else if Symbol == 19
+		else if Symbol == "K"
 			MolarMass = 39.10;
-		else if Symbol == 20
+		else if Symbol == "Ca"
 			MolarMass = 40.08;
-		else if Symbol == 21
+		else if Symbol == "Sc"
 			MolarMass = 44.96;
-		else if Symbol == 22
+		else if Symbol == "Ti"
 			MolarMass = 47.87;
-		else if Symbol == 23
+		else if Symbol == "V"
 			MolarMass = 50.94;
-		else if Symbol == 24
+		else if Symbol == "Cr"
 			MolarMass = 51.99;
-		else if Symbol == 25
+		else if Symbol == "Mn"
 			MolarMass = 54.94;
-		else if Symbol == 26
+		else if Symbol == "Fe"
 			MolarMass = 55.85;
-		else if Symbol == 27
+		else if Symbol == "Co"
 			MolarMass = 58.93;
-		else if Symbol == 28
+		else if Symbol == "Ni"
 			MolarMass = 58.69;
-		else if Symbol == 29
+		else if Symbol == "Cu"
 			MolarMass = 63.55;
+		else if Symbol == "Zn"
+			MolarMass = 65.38;
+		else if Symbol == "Ga"
+			MolarMass = 69.72;
+		else if Symbol == "Ge"
+			MolarMass = 72.64;
+		else if Symbol == "As"
+			MolarMass = 74.92;
+		else if Symbol == "Se"
+			MolarMass = 78.96;
+		else if Symbol == "Br"
+			MolarMass = 79.90;
+		else if Symbol == "Kr"
+			MolarMass = 83.80;
+		else if Symbol == "Rb"
+			MolarMass = 85.47;
+		else if Symbol == "Sr"
+			MolarMass = 87.62;
+		else if Symbol == "Y"
+			MolarMass = 88.91;
+		else if Symbol == "Zr"
+			MolarMass = 91.22;
+		else if Symbol == "Nb"
+			MolarMass = 92.91;
+		else if Symbol == "Mo"
+			MolarMass = 95.96;
+		else if Symbol == "Tc"
+			MolarMass = 98;
+		else if Symbol == "Ru"
+			MolarMass = 101.07;
+		else if Symbol == "Rh"
+			MolarMass = 102.91;
+		else if Symbol == "Pd"
+			MolarMass = 106.42;
+		else if Symbol == "Ag"
+			MolarMass = 107.87;
+		else if Symbol == "Cd"
+			MolarMass = 112.41;
+		else if Symbol == "In"
+			MolarMass = 114.82;
+		else if Symbol == "Sn"
+			MolarMass = 118.71;
+		else if Symbol == "Sb"
+			MolarMass = 121.76;
+		else if Symbol == "Te"
+			MolarMass = 127.6;
+		else if Symbol == "I"
+			MolarMass = 126.91;
+		else if Symbol == "Xe"
+			MolarMass = 131.29;
+		else if Symbol == "Cd"
+			MolarMass = 112.41;
+		else if Symbol == "In"
+			MolarMass = 114.82;
+		else if Symbol == "Sn"
+			MolarMass = 118.71;
+		else if Symbol == "Sb"
+			MolarMass = 212.76;
+		else if Symbol == "Te"
+			MolarMass = 127.6;
+		else if Symbol == "I"
+			MolarMass = 126.90;
+		else if Symbol == "Xe"
+			MolarMass = 131.29;
+else if Symbol == "Cd"
+			MolarMass = 112.41;
+else if Symbol == "Cd"
+			MolarMass = 112.41;
+else if Symbol == "Cd"
+			MolarMass = 112.41;
+else if Symbol == "Cd"
+			MolarMass = 112.41;
+else if Symbol == "Cd"
+			MolarMass = 112.41;
+else if Symbol == "Cd"
+			MolarMass = 112.41;
+else if Symbol == "Cd"
+			MolarMass = 112.41;
+else if Symbol == "Cd"
+			MolarMass = 112.41;
+else if Symbol == "Cd"
+			MolarMass = 112.41;
+else if Symbol == "Cd"
+			MolarMass = 112.41;
+
+
+
+
+
+
+
+
 
 
 
