@@ -13,70 +13,71 @@ int main(){
 	float MolarMass = 0;
 	float TotalMass = 0;
 	int NumberOfAtoms = 0;
+	char = Symbol[];
 
 	scanf("%d", &NumberOfElements);
 	for (int i = 0; i < NumberOfElements; i++){
-		printf("\nPlease enter the atomic number for element %d.\n", i);
-		scanf("%f", &AtomicNumber);
+		printf("\nPlease enter the symbol for element %d.\n", i);
+		scanf("%s", &Symbol);
 		printf("\nPlease enter the number of atoms of this element that are in the compound (according to formula)\n");
 		scanf("%d", &NumberOfAtoms);
-		if AtomicNumber == 1
+		if Symbol == "H"
 			MolarMass = 1.01;
-		else if AtomicNumber == 2
+		else if Symbol == "He"
 			MolarMass = 4.00;
-		else if AtomicNumber == 3
+		else if Symbol == "Li"
 			MolarMass = 6.94;
-		else if AtomicNumber == 4
+		else if Symbol == "Be"
 			MolarMass = 9.01;
-		else if AtomicNumber == 5
+		else if Symbol == "B"
 			MolarMass = 10.81;
-		else if AtomicNumber == 6
+		else if Symbol  == "C"
 			MolarMass = 12.01;
-		else if AtomicNumber == 7
+		else if Symbol == "N"
 			MolarMass = 14.01;
-		else if AtomicNumber == 8
+		else if Symbol == "O"
 			MolarMass = 16.00;
-		else if AtomicNumber == 9
+		else if Symbol  == "F"
 			MolarMass = 19.00;
-		else if AtomicNumber == 10
+		else if Symbol == "Ne"
 			MolarMass = 20.18;
-		else if AtomicNumber == 11
+		else if Symbol == 11
 			MolarMass = 22.99;
-		else if AtomicNumber == 12
+		else if Symbol == 12
 			MolarMass = 24.31;
-		else if AtomicNumber == 13
+		else if Symbol == 13
 			MolarMass = 26.98;
-		else if AtomicNumber == 14
+		else if Symbol == 14
 			MolarMass = 28.09;
-		else if AtomicNumber == 15
+		else if Symbol == 15
 			MolarMass = 30.97;
-		else if AtomicNumber == 16
+		else if Symbol == 16
 			MolarMass = 32.07;
-		else if AtomicNumber == 17
+		else if Symbol == 17
 			MolarMass = 35.45;
-		else if AtomicNumber == 18
+		else if Symbol == 18
 			MolarMass = 39.95;
-		else if AtomicNumber == 19
+		else if Symbol == 19
 			MolarMass = 39.10;
-		else if AtomicNumber == 20
+		else if Symbol == 20
 			MolarMass = 40.08;
-		else if AtomicNumber == 21
+		else if Symbol == 21
 			MolarMass = 44.96;
-		else if AtomicNumber == 22
+		else if Symbol == 22
 			MolarMass = 47.87;
-		else if AtomicNumber == 23
+		else if Symbol == 23
 			MolarMass = 50.94;
-		else if AtomicNumber == 24
+		else if Symbol == 24
 			MolarMass = 51.99;
-		else if AtomicNumber == 25
+		else if Symbol == 25
 			MolarMass = 54.94;
-		else if AtomicNumber == 26
+		else if Symbol == 26
 			MolarMass = 55.85;
-		else if AtomicNumber == 27
+		else if Symbol == 27
 			MolarMass = 58.93;
-		else if AtomicNumber == 28
+		else if Symbol == 28
 			MolarMass = 58.69;
-		else if AtomicNumber == 29
+		else if Symbol == 29
 			MolarMass = 63.55;
 
 
