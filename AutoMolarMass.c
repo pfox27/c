@@ -19,8 +19,7 @@ int main(){
 	for (int i = 1; i <= NumberOfElements; i++){
 		printf("\nPlease enter the symbol for element %d.\n", i);
 		scanf("%s", Symbol);
-		printf("\nPlease enter the number of atoms of this element that are in the compound (according to formula)\n");
-		scanf("%d", &NumberOfAtoms);
+
 		if (strcmp(Symbol, "H") == 0)
 			MolarMass = 1.01;
 		else if (strcmp(Symbol, "He") == 0)
@@ -199,6 +198,13 @@ int main(){
 			MolarMass = 293;
 		else if (strcmp(Symbol, "Og") == 0)
 			MolarMass = 294;
+		else {
+			printf("\nThat symbol is not understood.  Please run the programme again and enter a symbol from the periodic table (not including the Lanthanides and Actinides)\n");
+			break;
+		}
+
+		printf("\nPlease enter the number of atoms of this element that are in the compound (according to formula)\n");
+		scanf("%d", &NumberOfAtoms);
 
 		printf("\n%s's molar mass is %f \n", Symbol, MolarMass); 
 		TotalMass = TotalMass + MolarMass * NumberOfAtoms;
