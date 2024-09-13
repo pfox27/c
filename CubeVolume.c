@@ -1,4 +1,4 @@
-/* A programme that computes the volume of a cube using a function and a given length, width and height */
+/* A programme that computes the volume of a cube using a function and a given length, width and height. Jolly good fun as well! */
 
 #include <stdio.h>
 
