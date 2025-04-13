@@ -5,6 +5,7 @@
 int main(void){
 
 printf("Decimal		Octal		Hexadecimal\n");
+printf("~~~~~~~         ~~~~~           ~~~~~~~~~~~\n");
 
 	for (int i = 0; i<= 50; i++){
 		printf("%d\t\t%o\t\t%x\t\t\n", i, i, i);
