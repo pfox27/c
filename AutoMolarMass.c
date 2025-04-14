@@ -10,8 +10,8 @@ int main(){
 	printf("~~~~~~~~~~~~~~~~~~~~~\n");
 	printf("\nPlease enter the number of elements in the compound:\n");
 	int NumberOfElements = 0;
-	float MolarMass = 0;
-	float TotalMass = 0;
+	float MolarMass = 0; // Molar mass of individual elements
+	float TotalMass = 0; //Molar mass of compound
 	int NumberOfAtoms = 0;
 	char Symbol[] = "0";
 
